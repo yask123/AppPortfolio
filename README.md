@@ -1,6 +1,6 @@
-### App Portfolio
+## App Portfolio
 
-This app is for organizing my projects 
+An app is for organizing my projects 
 
 Screenshot:
 
