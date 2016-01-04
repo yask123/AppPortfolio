@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yasksrivastava.first.MainActivity"
+    android:background="#E8EAF6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="My Nanodegree Apps!"
+        android:textSize="28dp"
+        android:onClick="display"
+        android:textColor="#3F51B5"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Spotify Streamer"
+        android:id="@+id/first"
+        android:onClick="display"
+        android:background="#00E676"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Scores App"
+        android:id="@+id/second"
+        android:onClick="display"
+        android:background="#7C4DFF"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Library App"
+        android:id="@+id/third"
+        android:onClick="display"
+        android:textColor="@android:color/white"
+        android:background="#FF5722"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Build it bigger"
+        android:id="@+id/fourth"
+        android:onClick="display"
+        android:textColor="@android:color/white"
+        android:background="#263238"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bacon Reader"
+        android:id="@+id/fifth"
+        android:onClick="display"
+        android:textColor="@android:color/white"
+        android:background="#795548"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Capstone: My own app"
+        android:id="@+id/sixth"
+        android:onClick="display"
+        android:textColor="@android:color/white"
+        android:background="#F50057"/>
+</LinearLayout>
